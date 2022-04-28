@@ -16,17 +16,10 @@
 //THEN I am taken to the corresponding section of the README
 
 //GETTING STARTED:
-//create .gitignore file & include node_modules/ and .DS_Store/ so that 
-    //node_modules isn't tracked or uploaded to github
-    //create .gitignore file before installing any npm dependencies
-//Make sure repo includes package.json with required dependencies
-    //Create one by running npm init when you set up the project
 //Include a video of the typical user flow through application - how?
     //2.2.4 Pre-Work Module - ScreenCastify Tutorial
     //Submit a link to the video and add it to the ReadMe
 //Include other screenshots necessary for introduction to our application
 
-//How to set up  file structure
-//How to properly structure .gitignore
 //How to connect to node and to the nnpm I need
     //Inquirer?
