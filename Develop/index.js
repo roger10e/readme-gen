@@ -43,6 +43,31 @@ const questions = [
         name: 'username',
         message: 'What licenses does your project use?',
         choices: ['MIT', 'Mozilla', 'Apache', 'GNU', 'Eclipse'] 
+    },    
+    {
+        type: 'input',
+        name: 'description',
+        message: 'What is your project description?'
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: "What is your project's installation instructions?"
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: "What is your project's usage information?"
+    },
+    {
+        type: 'input',
+        name: 'contribution',
+        message: "What is your project's Contribution Guidelines?"
+    },
+    {
+        type: 'input',
+        name: 'testing',
+        message: "What is your project's testing instructions?"
     }
 ];
 
