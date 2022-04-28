@@ -9,7 +9,30 @@ const questions = [
         type: 'input',
         name: 'name',
         message: 'What is your name?'
-    }
+    },
+    {
+        type: 'input',
+        name: 'link',
+        message: 'Enter the GitHub link to your project. (Required)',
+        validate: linkInput => {
+          if (linkInput) {
+            return true;
+          } else {
+            console.log('You need to enter a project GitHub link!');
+            return false;
+          }
+        }
+    },
+    {
+        type: 'input',
+        name: 'title',
+        message: 'What is the project title?'
+    },
+    {
+        type: 'input',
+        name: 'username',
+        message: 'What is your GitHub username?'
+    },
 ];
 
 // TODO: Create a function to write README file
