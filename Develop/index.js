@@ -39,8 +39,8 @@ const questions = [
         message: 'What is your email address?'
     },
     {
-        type: 'checkbox',
-        name: 'username',
+        type: 'list',
+        name: 'license',
         message: 'What licenses does your project use?',
         choices: ['MIT', 'Mozilla', 'Apache', 'GNU', 'Eclipse'] 
     },    
